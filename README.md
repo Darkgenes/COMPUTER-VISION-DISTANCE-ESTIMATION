@@ -33,4 +33,4 @@ https://qengineering.eu/install-pytorch-on-jetson-nano.html
 
 7. Copy the ogl viewer (It's necesary for using zed libraries) into COMPUTER-VISION-DISTANCE-ESTIMATION. This folder is in usr/local/zed/samples/depth sensing/python/ogl_viewer
 
-8. You will need a yolov7 pose estimation model (.pt). Here you can download an example: https://github.com/WongKinYiu/yolov7/tree/pose (Remember change the file's name in est_dist.py for his correct usage)
+8. You will need a yolov7 pose estimation model (.pt). Here you can download an example: https://github.com/WongKinYiu/yolov7/tree/pose (Remember change the file's name in est_dist_PG.py for his correct usage)
