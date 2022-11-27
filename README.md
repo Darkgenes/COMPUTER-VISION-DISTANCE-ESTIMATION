@@ -4,7 +4,7 @@ This project is based on https://github.com/WongKinYiu/yolov7/tree/pose and http
 
 Steps:
 
-1. We tested on python 3.6.9 (default), but a higher version would be more recommended.
+1. We tested on python 3.6.9 (default for L4T 32.7.1 Jetson linux), but a higher version would be more recommended.
 2. For this project, we use a ZED stereo camera. Please install ZED SDK: https://www.stereolabs.com/developers/release/
 
 This project was only tested by using ZED SDK for L4T 32.7.1 (with Jetpack 4.6.2 on Jetson Tx2 with CUDA 10.2).
