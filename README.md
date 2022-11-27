@@ -18,9 +18,9 @@ Steps:
 
 6. Install requirements for YOLOv7 pose (pip || pip3 || your_method || install -r requierements.txt. 
 
-#In this case pytorch you have to install them apart. For pytorch, you need to asegure the compatibility for versions: https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-pytorch
+#It's probably ypu need to install pytorch apart. For that, you need to asegure the compatibility for versions first: https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-pytorch
 
-#In this case, we use 32.7.2 (is the same as 32.7.1 + security fixes). It will be PyTorch v1.9.0, torchvision v0.10.0, torchaudio v0.9.0. 
+#In this case, we use 32.7.2 (is the same as 32.7.1 + security fixes). It would be PyTorch v1.9.0, torchvision v0.10.0, torchaudio v0.9.0 then. 
 #This link will be helpful for you (maybe):
 
 https://medium.com/hackers-terminal/installing-pytorch-torchvision-on-nvidias-jetson-tx2-81591d03ce32#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjI3Yjg2ZGM2OTM4ZGMzMjdiMjA0MzMzYTI1MGViYjQzYjMyZTRiM2MiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NjkzMjg0NDIsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjExMjcwODI0MDc0MTk4OTE1NTIxMyIsImVtYWlsIjoiY3Jpc3RoaWFtLjA2MDIwMUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiMjE2Mjk2MDM1ODM0LWsxazZxZTA2MHMydHAyYTJqYW00bGpkY21zMDBzdHRnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6IkNyaXN0aGlhbSBGZWxpcGUgR29uesOhbGV6IE3DqW5kZXoiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUxtNXd1M0tCZEFidlFkbHBid0s2NE9XUDJIWG5TZHlKZTBqSzdCZG9FSHBvQT1zOTYtYyIsImdpdmVuX25hbWUiOiJDcmlzdGhpYW0gRmVsaXBlIiwiZmFtaWx5X25hbWUiOiJHb256w6FsZXogTcOpbmRleiIsImlhdCI6MTY2OTMyODc0MiwiZXhwIjoxNjY5MzMyMzQyLCJqdGkiOiIzNDkzMTU1MzY2ZDE5MzI2MGI0ZTRjMjRkNGY4YjY2ZjI4ZTA0YzQ3In0.nlxARpTRNTzJfIFiH4BVfhbe60T8iIggatixmgSsS2tQ0qAL3mnLoBP257mtiqqmcYdDZR2ABgySy7QLclektdxncTEDc_2-eMZUSSZXIC2ug4UNiHPNudqDG72ieuEI_7J_XPTBtOges4RMxVf1HcihAZARpq_Wuff1HACn0-_QJpFZOL7IHdLE9FQhSNpuF2ltZVQAakN4Dm0I6qfGoyP3yo28RwMzxO-YK_aEdRB1rIA9-MBp27nxlJihWDbyLt0B5oXprLxuqKtuOfVdr9_R4sBTXVHJxiKCKxeQYamSBWu7DOc1vmHLfpESq-HmqD41dI6k_bKDT8RX8aJung
